@@ -1,4 +1,4 @@
 webbrowser
 PyPDF2
 io
-
+streamlit
