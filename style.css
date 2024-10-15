@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'AppleSDGothicNeoB';
+    src: url('./fonts/AppleSDGothicNeoB.ttf') format('truetype');
+}
+/* 헤더 지우기*/
+header.css-147i1ru.e8zbici2 {
+    height: 0rem
+    }
+    
+/* 페이지 배경색 본문 */
+.stApp {
+    background-color:  #6A9C89; 
+}
+    .st-emotion-cache-12fmjuu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 3.75rem;
+    background: #6A9C89;
+    outline: none;
+    z-index: 999990;
+    display: block;
+}    
+/* 페이지 배경색 상단*/
+.st-emotion-cache-1yiq2ps {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    place-content: flex-start;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    position: absolute;
+    inset: 0px;
+    overflow: hidden;
+    background: #6A9C89;
+}
+/* 사이드바 */
+.st-emotion-cache-6qob1r {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: overlay;
+    background-color: #16423C;
+}
+
+.st-emotion-cache-1whx7iy p {
+    word-break: break-word;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.st-emotion-cache-1vt4y43 {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    min-height: 2.5rem;
+    margin: 0px;
+    line-height: 1.6;
+    color: inherit;
+    width: auto;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid rgba(49, 51, 63, 0.2);
+}
+/* 사이드바//페이지 선택창 */
+.st-emotion-cache-187vdiz p {
+    word-break: break-word;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+/* 이미지 */
+img {
+    max-width: 100%;
+    }
+
+.sample {
+    color: rgb(0, 0, 0);
+}
+
+/* 사이드바 폰트 , 색 적용 */
+.st-bs {
+    font-family: 'AppleSDGothicNeoB';
+    color: #efebe7;
+}
+/* 사이드바 폰트 , 색 적용 */
+.st-emotion-cache-vj2lqp {
+    font-family: 'AppleSDGothicNeoB';
+    color: #efebe7;
+}
+/* 탭 스타일 */
+.st-emotion-cache-jkfxgf{
+    font-family: 'AppleSDGothicNeoB';
+    color: rgb(0,0,0);
+}
+
+/* 본문 및 내용에 폰트 적용 */
+.st-emotion-cache-1rsyhoq{
+    font-family: 'AppleSDGothicNeoB';
+}
