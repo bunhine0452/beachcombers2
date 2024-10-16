@@ -89,7 +89,7 @@ def intro():
         st.image('https://www.python.org/static/img/python-logo@2x.png', width=300)
         st.markdown('''- 모델링: transformers, datasets, torch, sklearn, nltk, konlpy, kobert, korean-roberta''')
         st.markdown('''- 데이터 증강: chatGPT(GPTs)''')
-
+        st.markdown('#')  
 
 
 

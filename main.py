@@ -19,7 +19,7 @@ apply_custom_font(encoded_font, 'AppleSDGothicNeoB')
 hard_type_css()
 page_select = {
     "팀 소개 및 목표": intro,  # 괄호 없이 함수 참조 전달
-    "p1": p1,
+    "데이터 들여다보기": p1,
 }
 
 # 사이드바에서 페이지 선택
