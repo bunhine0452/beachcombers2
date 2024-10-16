@@ -1,4 +1,0 @@
-webbrowser
-PyPDF2
-io
-
