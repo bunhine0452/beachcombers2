@@ -126,7 +126,7 @@ def base_model():
         ''')
 
         st.markdown('''
-        ### 역할 4: 감성과 카테고리 매핑 사전 (`sentiment_map` 및 `category_map`)
+        ### 감성과 카테고리 매핑 사전 (`sentiment_map` 및 `category_map`)
         **주요 역할**: 감성 및 카테고리 레이블을 정수형 값으로 매핑하는 사전을 정의하여, 데이터셋에서 문장의 어노테이션을 숫자 레이블로 변환합니다. 이는 모델의 출력과 손실 계산에 필요한 형태로 데이터를 변환하기 위함입니다.
         ''')
 
@@ -155,13 +155,13 @@ def base_model():
         ABSA(Aspect-Based Sentiment Analysis) 작업을 위한 모델을 정의합니다. 두 가지 모델인 `AspectCategoryModel`과 `SentimentModel`을 정의하고 각 모델은 특정한 예측 작업을 수행하도록 설계되어 있습니다.
         ''')
         st.markdown('''
-        #### `model.py`의 주요 역할
+        #### 흐름
         - **카테고리 예측 모델**: `AspectCategoryModel`은 주어진 문장에서 특정한 **카테고리**를 예측합니다.
         - **감성 예측 모델**: `SentimentModel`은 주어진 문장에서 특정한 **감성(긍정, 중립, 부정)**을 예측합니다.
         - **모델 구조**: 두 모델 모두 **XLM-RoBERTa**와 같은 사전 학습된 트랜스포머 모델을 기반으로 합니다. 이 모델들은 텍스트 입력을 받아 `CLS` 토큰의 출력 벡터를 사용하여 각각의 예측을 수행합니다.
         ''')
         st.markdown('''
-        #### 역할 1: `AspectCategoryModel` 정의
+        #### `AspectCategoryModel` 정의
         **주요 역할**: 입력된 문장에 대해 **카테고리**를 예측하는 모델입니다.
         - **모델 초기화**: 사전 학습된 트랜스포머 모델(`XLM-RoBERTa`)을 로드하고, 최종 예측을 위한 선형 레이어(`Linear`)를 정의합니다.
         - **forward 메서드**: 텍스트 입력(`input_ids`)과 어텐션 마스크(`attention_mask`)를 받아 트랜스포머 모델을 통과시킨 후, `CLS` 토큰의 출력 벡터를 선형 레이어에 통과시켜 카테고리 예측을 수행합니다.
