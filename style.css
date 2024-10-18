@@ -99,6 +99,11 @@ img {
     font-family: 'AppleSDGothicNeoB';
     color: rgb(0,0,0);
 }
+/* MAC용 탭 스타일 */
+.st-bx {
+    color: rgb(0,0,0);
+}
+
 
 /* 본문 및 내용에 폰트 적용 */
 .st-emotion-cache-1rsyhoq{
@@ -108,4 +113,31 @@ img {
 /* 탭 색 변경 */
 .st-c2 {
     background-color: #387478;
+}
+
+/* MAC 용 본문 배경색 적용 */
+.st-emotion-cache-1ku4tzj {
+    border-radius: 30px;
+    border: 2px solid #fffcf2;
+    padding: 25px;
+    background-color: #fffcf2;
+    box-shadow: 4px 4px 24px #252422;
+    color: rgb(0, 0, 0);
+}
+.st-emotion-cache-1ceev1o {
+    border-radius: 30px;
+    border: 2px solid #fffcf2;
+    padding: 25px;
+    background-color: #fffcf2;
+    box-shadow: 4px 4px 24px #252422;
+    color: rgb(0, 0, 0);
+}
+.st-emotion-cache-173o872 {
+    border-radius: 30px;
+    border: 2px solid #fffcf2;
+    padding: 25px;
+    background-color: #fffcf2;
+    box-shadow: 4px 4px 24px #252422;
+    color: rgb(0, 0, 0);
+    
 }
